@@ -23,7 +23,16 @@ x install hoard
 - **Latest**: `v1.4.2` (2023-08-06)
 - **Last commit**: 2024-06-13
 - **Assets in release**: 5
-- **Published**: 2023-08-06T11:33:00Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [hoard_1.4.2_amd64.deb](https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_1.4.2_amd64.deb) | 3.1 MiB | `runtime/deb/amd64` |
+| [hoard_v1.4.2_x86_64-apple-darwin.zip](https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-apple-darwin.zip) | 3.2 MiB | `native/darwin/x64` |
+| [hoard_v1.4.2_x86_64-apple-darwin.zip.sha256sum](https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-apple-darwin.zip.sha256sum) | 102 B | `native/darwin/x64` |
+| [hoard_v1.4.2_x86_64-unknown-linux-musl.zip](https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-unknown-linux-musl.zip) | 4.8 MiB | `native/linux/x64/musl` |
+| [hoard_v1.4.2_x86_64-unknown-linux-musl.zip.sha256sum](https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-unknown-linux-musl.zip.sha256sum) | 108 B | `native/linux/x64/musl` |
 
 ## Popularity
 
@@ -58,8 +67,8 @@ Total: **4,278** lines of code across **38** files in the top 5 languages.
 Install metadata for hoard lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `hoard` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/hoard.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/hoard.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:18:41Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T17:08:27Z._
